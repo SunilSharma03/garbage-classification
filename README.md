@@ -31,18 +31,11 @@ A deep learning project that classifies waste images into 6 recyclable categorie
 ---
 ## ⚙️ Model Architecture 
 
-<p align="center">
-  <img src="https://github.com/SunilSharma03/Garbage-Classification/blob/main/Asset/Architecture%20Diagram.png?raw=true" alt="Model Architecture" width="700"/>
-</p>
 <p>
 The visual above represents the complete training and evaluation pipeline. It uses EfficientNetV2B2 as a feature extractor, followed by custom CNN layers. The model is initially trained with a frozen base, then fine-tuned, and finally evaluated on multiple metrics like accuracy, loss curves, and confusion matrix.
 </p>
 
 ## 🧩 Model Flow Diagram
-
-<p align="center">
-  <img src="https://github.com/SunilSharma03/Garbage-Classification/blob/main/Asset/Flow%20Diagram.png?raw=true" alt="Model Flow Diagram" width="700"/>
-</p>
 
 ---
 ## 📊 Model Evaluation
